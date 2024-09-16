@@ -7,10 +7,22 @@
     box-sizing: border-box;
   }
   
-  header {
+  /* Menu*/
+  header{
     width: 100%;
     background-color: #171717;
     padding: 8px 36px;
+  }
+
+  header a{
+    display: flex;
+    color: var(--Sunset-Orange-500, #F25C54);
+    font-family: Manrope;
+    font-size: 18.979px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
   }
   
   nav {
@@ -61,4 +73,12 @@
     background: #1E1E1E;
     border: 0.5px solid #323232;
   }
+
+  button :hover{
+    border-radius: 8px;
+    background: #323232;
+    border-color: #1E1E1E;
+  }
+/*Fechamento Menu*/
+
 
