@@ -77,20 +77,22 @@ footer{
   width: 100%;
   background-color: #171717;
   border-top: 0.5px solid #323232;
-  padding: 42px 60px;
+  padding: 57px 60px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  flex-direction: column;  
-  
-}
-  
-footer .rodape img{
-    width: 171px;
-    padding-bottom: 36px;
+  align-items: center; 
 }
 
-footer .rodape p{
+.conteudo_rodape{
+    flex: 1;
+}
+  
+footer .conteudo_rodape img{
+    width: 171px;
+    margin-bottom: 36px;
+}
+
+footer .conteudo_rodape p{
     color: rgba(255, 255, 255, 0.60);
     font-family: Manrope;
     font-size: 20px;
@@ -98,10 +100,10 @@ footer .rodape p{
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.4px;
-    margin-bottom: 36px;
+    margin-bottom: 20px;
 }
 
-footer .digitar_email{
+footer .conteudo_rodape input{
     display: flex;
     padding: 14px 20px;
     align-items: center;
@@ -109,7 +111,9 @@ footer .digitar_email{
     border-radius: 8px;
     border: 0.5px solid #323232;
     background: #121212;
-    margin-bottom: 36px;
+    margin-bottom: 23px;
+    width: 26.25rem;
+    max-width: 100%;
 }
 
 input[type="email"]{
@@ -120,6 +124,45 @@ input[type="email"]{
     font-weight: 500;
     line-height: normal;
     letter-spacing: -0.36px;
+}
+
+.info_rodape button{
+    padding: 6px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--Sunset-Orange-500, #F25C54);
+    /*Escrita de dentro*/
+    color: #F2F2F2;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+
+
+
+footer nav .container_lista{
+    display: flex;
+    flex-direction: row;   
+}
+
+footer .lista1{
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px;
+}
+footer .lista2{
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px;
+}
+footer .lista3{
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px;
 }
 
 
