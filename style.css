@@ -1,12 +1,15 @@
+/*IMPORT DE FONTES*/
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+/*GERAL!*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/*menu*/
+/*INICIO MENU!!!*/
 
 header {
   width: 100%;
@@ -58,6 +61,7 @@ header .conteudo nav ul li a:hover {
     height: 38px;
     justify-content: center;
     align-items: center;
+    
     border-radius: 8px;
     background: #1E1E1E;
     border: 0.5px solid #323232;
@@ -69,23 +73,21 @@ header .conteudo nav ul li a:hover {
     background: #323232;
     border-color: #1E1E1E;
   }
-/*Fechamento Menu*/
+/*FECHAMENTO MENU!!!!*/
 
-/*rodape*/
+/*INICIO RODAPE!!*/
 
-footer{
-  width: 100%;
-  background-color: #171717;
-  border-top: 0.5px solid #323232;
-  padding: 57px 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; 
+footer .rodape{
+    width: 100%;
+    background-color: #171717;
+    border-top: 0.5px solid #323232;
+    padding: 57px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
 }
 
-.conteudo_rodape{
-    flex: 1;
-}
   
 footer .conteudo_rodape img{
     width: 171px;
@@ -128,6 +130,7 @@ input[type="email"]{
 
 .info_rodape button{
     padding: 6px 12px;
+    border: 0px;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
@@ -139,31 +142,70 @@ input[type="email"]{
     font-style: normal;
     font-weight: 500;
     line-height: 26px;
+    cursor: pointer;
 }
 
+.info_rodape button:hover{
+    background: #323232;
+    border-color: #1E1E1E;
+    transition: all  ease;
+}
 
+/*formatações listas*/
 
-
-footer nav .container_lista{
+footer .container_lista{
     display: flex;
-    flex-direction: row;   
+    flex-direction: row;
+    gap: 76px;
 }
 
-footer .lista1{
-    background-color: lightblue;
-    padding: 10px;
-    margin: 5px;
+.lista1, .lista2, .lista3{
+    display: flex;
+    width: 180px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21px;
 }
-footer .lista2{
-    background-color: lightblue;
-    padding: 10px;
-    margin: 5px;
+
+.lista1 h3, .lista2 h3,.lista3 h3{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.44px;
 }
-footer .lista3{
-    background-color: lightblue;
-    padding: 10px;
-    margin: 5px;
+
+.lista1 ul, .lista2 ul, .lista3 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
 }
+
+.lista1 li a, .lista2 li a, .lista3 li a{
+align-self: stretch;
+color: rgba(255, 255, 255, 0.50);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.36px;
+text-decoration: none;
+}
+
+.lista1 li a:hover, .lista2 li a:hover, .lista3 li a:hover {
+    color: white;
+    transition: all 0.2s ease;
+  }
+
+/*formatações listas - FIMM!*/
+
+/*FIM RODAPE!!!*/
+
 
 
 
