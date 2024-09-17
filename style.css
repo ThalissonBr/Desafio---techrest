@@ -6,6 +6,8 @@
   box-sizing: border-box;
 }
 
+/*menu*/
+
 header {
   width: 100%;
   background-color: #171717;
@@ -16,17 +18,17 @@ header {
   align-items: center;
 }
 
-header .wrapper {
+header .conteudo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-header .wrapper a img {
+header .conteudo a img {
   width: 126px;
 }
 
-header .wrapper nav ul {
+header .conteudo nav ul {
   padding: 8px 36px;
   list-style: none;
   display: flex;
@@ -34,7 +36,7 @@ header .wrapper nav ul {
   gap: 16px;
 }
 
-header .wrapper nav ul li a {
+header .conteudo nav ul li a {
   color: rgba(255, 255, 255, 0.5);
   font-family: Manrope;
   font-size: 16px;
@@ -45,7 +47,7 @@ header .wrapper nav ul li a {
   transition: all 0.2s ease;
 }
 
-header .wrapper nav ul li a:hover {
+header .conteudo nav ul li a:hover {
   color: white;
   transition: all 0.2s ease;
 }
@@ -68,5 +70,60 @@ header .wrapper nav ul li a:hover {
     border-color: #1E1E1E;
   }
 /*Fechamento Menu*/
+
+/*rodape*/
+
+footer{
+  width: 100%;
+  background-color: #171717;
+  border-top: 0.5px solid #323232;
+  padding: 42px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;  
+  
+}
+  
+footer .rodape img{
+    width: 171px;
+    padding-bottom: 36px;
+}
+
+footer .rodape p{
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    margin-bottom: 36px;
+}
+
+footer .digitar_email{
+    display: flex;
+    padding: 14px 20px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 0.5px solid #323232;
+    background: #121212;
+    margin-bottom: 36px;
+}
+
+input[type="email"]{
+    color: rgba(255, 255, 255, 0.40);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.36px;
+}
+
+
+
+
 
 
