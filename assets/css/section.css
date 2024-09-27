@@ -67,6 +67,65 @@
 .conteudoPage2 {
     height: 2486px;
     background: #121212;
+    display: flex;
+    flex-direction: column;
 }
+
+.conteudoPage2 h2 {
+    margin-top: 60px;
+    padding: 0px 60px;
+    color: #F2F2F2;
+    font-family: Manrope;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.groupSC2 {
+    display: inline-flex;
+    gap: 139px;
+    padding: 40px 60px;
+}
+
+.exploreSC2, .compartilheSC2, .conectarSC2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.exploreText, .compartilheText, .conectarText {
+    display: flex;
+}
+
+.exploreText img, .compartilheText img, .conectarText img {
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+}
+
+.exploreText h4, .compartilheText h4, .conectarText h4 {
+    color: #F2F2F2;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.exploreSC2 p, .compartilheSC2 p, .conectarSC2 p {
+    padding-top: 19.5px;
+    width: 340px;
+    height: 172px;
+    color: rgba(242, 242, 242, 0.50);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.48px;
+}
+
+
 /*Fim Conteudo SC2*/
 
