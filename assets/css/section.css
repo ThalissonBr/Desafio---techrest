@@ -1,5 +1,6 @@
 /*Estilizando SECTION */
 
+/*ConteudoSC1*/
 .conteudoPage1 {
     display: flex;
     justify-content: space-between;
@@ -58,3 +59,13 @@
     height: 385px;
     flex-shrink: 0;
 }
+
+/*FIM ConteudoSC1*/
+
+/*ConteudoSC2*/
+.conteudoPage2 {
+    height: 2486px;
+    background: #121212;
+}
+/*Fim Conteudo SC2*/
+

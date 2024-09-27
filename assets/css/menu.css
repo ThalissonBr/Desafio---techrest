@@ -5,6 +5,18 @@
 @import url(footer.css);
 @import url(section.css);
 
+/*Barra de scrooll*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: #000000;
+}
+
+/*Fim Barra de Scrooll*/
+
 /*GERAL!*/
 * {
   margin: 0;
@@ -57,31 +69,24 @@ header .conteudo nav ul li a:hover {
   color: white;
   transition: all 0.2s ease;
 }
-  
-  header .lua button{
-    display: flex;
-    width: 38px;
-    height: 38px;
-    justify-content: center;
-    align-items: center;
-    
-    border-radius: 8px;
-    background: #1E1E1E;
-    border: 0.5px solid #323232;
-    cursor: pointer;    
+
+header .lua button {
+  display: flex;
+  width: 38px;
+  height: 38px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 8px;
+  background: #1E1E1E;
+  border: 0.5px solid #323232;
+  cursor: pointer;
 }
 
-  button :hover{
-    border-radius: 8px;
-    background: #323232;
-    border-color: #1E1E1E;
-  }
+button :hover {
+  border-radius: 8px;
+  background: #323232;
+  border-color: #1E1E1E;
+}
+
 /*FECHAMENTO MENU!!!!*/
-
-
-
-
-
-
-
-

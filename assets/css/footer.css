@@ -1,6 +1,6 @@
 /*INICIO RODAPE!!*/
 
-footer .rodape{
+footer .rodape {
     width: 100%;
     background-color: #171717;
     border-top: 0.5px solid #323232;
@@ -11,13 +11,13 @@ footer .rodape{
     flex: 1 0 0;
 }
 
-  
-footer .conteudo_rodape img{
+
+footer .conteudo_rodape img {
     width: 171px;
     margin-bottom: 36px;
 }
 
-footer .conteudo_rodape p{
+footer .conteudo_rodape p {
     color: rgba(255, 255, 255, 0.60);
     font-family: Manrope;
     font-size: 20px;
@@ -28,7 +28,7 @@ footer .conteudo_rodape p{
     margin-bottom: 20px;
 }
 
-footer .conteudo_rodape input{
+footer .conteudo_rodape input {
     display: flex;
     padding: 14px 20px;
     align-items: center;
@@ -41,7 +41,7 @@ footer .conteudo_rodape input{
     max-width: 100%;
 }
 
-input[type="email"]{
+input[type="email"] {
     color: rgba(255, 255, 255, 0.40);
     font-family: Manrope;
     font-size: 18px;
@@ -51,7 +51,7 @@ input[type="email"]{
     letter-spacing: -0.36px;
 }
 
-.info_rodape button{
+.info_rodape button {
     padding: 6px 12px;
     border: 0px;
     justify-content: center;
@@ -68,21 +68,23 @@ input[type="email"]{
     cursor: pointer;
 }
 
-.info_rodape button:hover{
+.info_rodape button:hover {
     background: #323232;
     border-color: #1E1E1E;
-    transition: all  ease;
+    transition: all ease;
 }
 
 /*formatações listas*/
 
-footer .container_lista{
+footer .container_lista {
     display: flex;
     flex-direction: row;
     gap: 76px;
 }
 
-.lista1, .lista2, .lista3{
+.lista1,
+.lista2,
+.lista3 {
     display: flex;
     width: 180px;
     flex-direction: column;
@@ -90,7 +92,9 @@ footer .container_lista{
     gap: 21px;
 }
 
-.lista1 h3, .lista2 h3,.lista3 h3{
+.lista1 h3,
+.lista2 h3,
+.lista3 h3 {
     color: #FFF;
     font-family: Manrope;
     font-size: 22px;
@@ -100,7 +104,9 @@ footer .container_lista{
     letter-spacing: -0.44px;
 }
 
-.lista1 ul, .lista2 ul, .lista3 ul {
+.lista1 ul,
+.lista2 ul,
+.lista3 ul {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -108,22 +114,26 @@ footer .container_lista{
 
 }
 
-.lista1 li a, .lista2 li a, .lista3 li a{
-align-self: stretch;
-color: rgba(255, 255, 255, 0.50);
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: -0.36px;
-text-decoration: none;
+.lista1 li a,
+.lista2 li a,
+.lista3 li a {
+    align-self: stretch;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    text-decoration: none;
 }
 
-.lista1 li a:hover, .lista2 li a:hover, .lista3 li a:hover {
+.lista1 li a:hover,
+.lista2 li a:hover,
+.lista3 li a:hover {
     color: white;
     transition: all 0.2s ease;
-  }
+}
 
 /*formatações listas - FIMM!*/
 
