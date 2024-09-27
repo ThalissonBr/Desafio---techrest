@@ -84,7 +84,7 @@
 
 .groupSC2 {
     display: inline-flex;
-    gap: 139px;
+    gap: 350px;
     padding: 40px 60px;
 }
 
@@ -95,6 +95,7 @@
 
 .exploreText, .compartilheText, .conectarText {
     display: flex;
+    align-items: center;
 }
 
 .exploreText img, .compartilheText img, .conectarText img {
@@ -114,7 +115,7 @@
 }
 
 .exploreSC2 p, .compartilheSC2 p, .conectarSC2 p {
-    padding-top: 19.5px;
+    padding-top: 16px;
     width: 340px;
     height: 172px;
     color: rgba(242, 242, 242, 0.50);
