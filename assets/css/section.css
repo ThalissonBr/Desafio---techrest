@@ -24,6 +24,7 @@
 
 .techrestSC1 {
     display: flex;
+    gap: 13px;
 }
 
 .techrestSC1 img {
