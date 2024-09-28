@@ -84,8 +84,9 @@
 
 .groupSC2 {
     display: inline-flex;
-    gap: 350px;
-    padding: 40px 60px;
+    gap: 370.28px;
+    padding: 40px 66px;
+    padding-left: 60px;
 }
 
 .exploreSC2, .compartilheSC2, .conectarSC2 {
@@ -99,7 +100,7 @@
 }
 
 .exploreText img, .compartilheText img, .conectarText img {
-    width: 40px;
+    width: 50px;
     height: 40px;
     padding-right: 10px;
 }
@@ -126,7 +127,6 @@
     line-height: normal;
     letter-spacing: -0.48px;
 }
-
 
 /*Fim Conteudo SC2*/
 
